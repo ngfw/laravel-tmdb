@@ -229,17 +229,17 @@ $tmdb = Tmdb::collections()->transactions($collectionId)->get(); // return array
 ### Companies
 #### Get Details
 ```php
-$tmdb = Tmdb::companies()->details($collectionId)->get(); // return array
+$tmdb = Tmdb::companies()->details($company_id)->get(); // return array
 ```
 - For more [information](https://developers.themoviedb.org/3/companies/get-company-details).
 #### Get Alternative Names
 ```php
-$tmdb = Tmdb::companies()->alternativeNames($collectionId)->get(); // return array
+$tmdb = Tmdb::companies()->alternativeNames($company_id)->get(); // return array
 ```
 - For more [information](https://developers.themoviedb.org/3/companies/get-company-alternative-names).
 #### Get Images
 ```php
-$tmdb = Tmdb::companies()->images($collectionId)->get(); // return array
+$tmdb = Tmdb::companies()->images($company_id)->get(); // return array
 ```
 - For more [information](https://developers.themoviedb.org/3/companies/get-company-images).
 
